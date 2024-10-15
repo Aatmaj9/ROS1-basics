@@ -1,3 +1,5 @@
+Let us see in detail what a catkin package consists of - 
+
 ### Package.xml file
 
 This file defines properties about the package such as the package name, version numbers, authors, maintainers, and dependencies on other catkin packages. 
