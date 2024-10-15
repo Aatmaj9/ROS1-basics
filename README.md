@@ -22,9 +22,7 @@ Before continuing source your new setup.*sh file:
 ```
 source devel/setup.bash
 ```
-This is a general structure of a catkin workspace - 
-
-![image](https://github.com/user-attachments/assets/b05338dd-3a89-4703-91b9-b442f8a70f59)
+To undersatnd more about a catkin workspace you can read - 
 
 # Navigating the ros filesystem
 
