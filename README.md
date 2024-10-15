@@ -81,14 +81,13 @@ Documentation Tool Dependencies specify documentation tools which this package n
 
 These six types of dependencies are specified using the following respective tags:
 
-<depend> specifies that a dependency is a build, export, and execution dependency. This is the most commonly used dependency tag.
-
-<build_depend>
-<build_export_depend>
-<exec_depend>
-<test_depend>
-<buildtool_depend>
-<doc_depend>
+1. <depend>  - specifies that a dependency is a build, export, and execution dependency. This is the most commonly used dependency tag.
+2. <build_depend> - If you only use some particular dependency for building your package, and not at execution time, you can use the <build_depend> tag. For example, the ROS angles package is categoized as build_depend because it provides functionality which is only needed in build process rather than runtime. It doesn't have any runtime executables or nodes that need to be running when your package is executed.
+3. <build_export_depend>
+4. <exec_depend>
+5. <test_depend>
+6. <buildtool_depend>
+7. <doc_depend>
 
 All packages have at least one dependency
 
